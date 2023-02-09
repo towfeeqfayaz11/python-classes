@@ -15,23 +15,24 @@ class Student:
         return self.regno
 
 
-
 studentList  = []
 
-s1 = Student("saravanan", 101, 440101)       
-# print(s1.getRegno())
-studentList.append(s1)
+s1 = Student("saravanan", 101, 440101)    
 
-m1 = Student("muthu", 102, 440102)
-# print(m1.getRegno())
-studentList.append(m1)
+print(s1.name)
+s1.name ="ascasa"
+
+print(s1.getName())
+
+# s1.name="xyz"
+# # print(s1.getRegno())
+# studentList.append(s1)
+
+# m1 = Student("muthu", 102, 440102)
+# # print(m1.getRegno())
+# studentList.append(m1)
 
 
-for stud in studentList:
-    print(stud.getName())
-
-
-
-
-
+# for stud in studentList:
+#     print(stud.getName())
 
