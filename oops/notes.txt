@@ -1,0 +1,7 @@
+
+=> for python naming we follow pep-8 standards
+different cases in naming convention:
+
+1) camelCase      ->   howAreYou
+2) snake_case     ->   this_is_my_func()
+3) PascalCase     ->   HomeIsHome

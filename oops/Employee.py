@@ -39,10 +39,11 @@ class PartTimeEmployee(Employee):
 
 
 e1 = FullTimeEmployee("tom", "jack", "t.jack@gmal.com", 10000)
-e1.printFullName()
+# e1.printFullName()
 print(e1.getSalary())
+print(e1.getEmail())
 
-print(e1.__fName)
+# print(e1.__fName)
 
 
 # p1 = PartTimeEmployee("mohan", "raj", "m.raj@gmal.com", 15000)
